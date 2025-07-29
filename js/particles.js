@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 },
                 "color": {
-                    value: "#4CAF50" // Verde
+                    "value": "#3498db"
                 },
                 "shape": {
                     "type": "circle",
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "line_linked": {
                     "enable": true,
                     "distance": 150,
-                    color: "#2E7D32", // Verde oscuro
+                    "color": "#3498db",
                     "opacity": 0.4,
                     "width": 1
                 },
