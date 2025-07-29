@@ -1,13 +1,13 @@
 /* Variables */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --accent-color: #e74c3c;
-    --light-color: #ecf0f1;
-    --dark-color: #2c3e50;
-    --text-color: #333;
-    --text-light: #7f8c8d;
-    --bg-color: #f9f9f9;
+ --primary-color: #000000;  /* Negro como color principal */
+    --secondary-color: #333333; /* Gris oscuro para secundario */
+    --accent-color: #555555;   /* Gris medio para acentos */
+    --light-color: #f5f5f5;    /* Gris muy claro */
+    --dark-color: #000000;     /* Negro */
+    --text-color: #333333;     /* Gris oscuro para texto principal */
+    --text-light: #666666;     /* Gris medio para texto secundario */
+    --bg-color: #ffffff;       /* Blanco puro para fondo */
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
 }
@@ -42,6 +42,7 @@ body {
 section {
     padding: 80px 0;
     position: relative;
+        background: var(--bg-color);
 }
 
 .section-title {
@@ -83,25 +84,26 @@ section {
 }
 
 .btn-primary {
-    background: var(--primary-color);
+    background: var(--dark-color);
     color: white;
 }
 
 .btn-primary:hover {
-    background: #2980b9;
+    background: var(--secondary-color);
+    color: white;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    color: var(--dark-color);
+    border: 2px solid var(--dark-color);
     margin-left: 15px;
 }
 
 .btn-secondary:hover {
-    background: var(--primary-color);
+    background: var(--dark-color);
     color: white;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -116,7 +118,7 @@ section {
     padding: 20px 0;
     z-index: 999;
     transition: var(--transition);
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -397,7 +399,7 @@ section {
 
 /* Habilidades */
 .skills {
-    background: var(--bg-color);
+   background: var(--light-color);
 }
 
 .skills-container {
@@ -441,7 +443,7 @@ section {
 
 .skill-level {
     height: 100%;
-    background: var(--primary-color);
+    background: var(--dark-color);
     border-radius: 5px;
     position: relative;
     animation: skill-fill 1.5s ease-in-out forwards;
@@ -472,7 +474,7 @@ section {
     transform: translateX(-50%);
     width: 2px;
     height: 100%;
-    background: var(--primary-color);
+    background: var(--dark-color);
 }
 
 .timeline-item {
@@ -489,7 +491,7 @@ section {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--primary-color);
+  background: var(--dark-color);
     color: white;
     padding: 8px 15px;
     border-radius: 30px;
@@ -579,8 +581,8 @@ section {
 }
 
 .project-card {
-    background: white;
-    border-radius: 10px;
+     background: white;
+    border: 1px solid #eee; 
     overflow: hidden;
     box-shadow: var(--box-shadow);
     transition: var(--transition);
@@ -617,7 +619,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(52, 152, 219, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     opacity: 0;
     transition: var(--transition);
 }
@@ -635,7 +637,7 @@ section {
     background: white;
     border-radius: 50%;
     margin: 0 10px;
-    color: var(--primary-color);
+    color: var(--dark-color);
     font-size: 1.2rem;
     transition: var(--transition);
 }
