@@ -1,14 +1,14 @@
 /* Variables */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --accent-color: #e74c3c;
-    --light-color: #ecf0f1;
-    --dark-color: #2c3e50;
-    --text-color: #333;
-    --text-light: #7f8c8d;
-    --bg-color: #f9f9f9;
-    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --primary-color: #4CAF50;  /* Verde principal */
+    --secondary-color: #121212; /* Negro de fondo */
+    --accent-color: #2E7D32;   /* Verde oscuro para acentos */
+    --light-color: #1E1E1E;    /* Gris oscuro */
+    --dark-color: #000000;     /* Negro puro */
+    --text-color: #E0E0E0;     /* Texto claro */
+    --text-light: #BDBDBD;     /* Texto secundario */
+    --bg-color: #121212;       /* Fondo oscuro */
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     --transition: all 0.3s ease;
 }
 
@@ -84,17 +84,17 @@ section {
 
 .btn-primary {
     background: var(--primary-color);
-    color: white;
+    color: #000; /* Texto negro para mejor contraste */
 }
 
 .btn-primary:hover {
-    background: #2980b9;
+    background: #388E3C; /* Verde más oscuro */
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.4);
 }
 
 .btn-secondary {
-    background: transparent;
+    border-color: var(--primary-color);
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
     margin-left: 15px;
@@ -116,7 +116,7 @@ section {
     padding: 20px 0;
     z-index: 999;
     transition: var(--transition);
-    background: rgba(255, 255, 255, 0.9);
+    background-color: rgba(18, 18, 18, 0.9);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -579,7 +579,8 @@ section {
 }
 
 .project-card {
-    background: white;
+    background-color: #1E1E1E;
+    border: 1px solid #2E7D32;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--box-shadow);
