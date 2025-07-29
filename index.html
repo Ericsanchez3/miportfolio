@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Sánchez Lahcini | Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Fondo animado con partículas -->
+    <div id="particles-js"></div>
+    
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">ESL</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-pop-in">Eric Sánchez Lahcini</h1>
+                <h2 class="animate-pop-in">Desarrollador Full-Stack & Android</h2>
+                <p class="animate-pop-in">Transformando ideas en soluciones tecnológicas innovadoras</p>
+                <div class="hero-buttons animate-pop-in">
+                    <a href="#contact" class="btn btn-primary">Contáctame</a>
+                    <a href="assets/resume.pdf" download class="btn btn-secondary">Descargar CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="images/eric-profile.jpg" alt="Eric Sánchez Lahcini" class="profile-img">
+                    <div class="tech-icons">
+                        <i class="fab fa-angular" title="Angular"></i>
+                        <i class="fab fa-java" title="Java"></i>
+                        <i class="fab fa-android" title="Android"></i>
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-react" title="React"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Mí</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un apasionado desarrollador Full-Stack con experiencia en Angular, Ionic y Java. Mi formación en Ingeniería de Computadores y Desarrollo de Aplicaciones Multiplataforma me ha proporcionado una base sólida en programación y resolución de problemas.</p>
+                    <p>Disfruto trabajando en equipo y enfrentando nuevos desafíos tecnológicos. Mi enfoque metódico y atención al detalle me permiten crear soluciones eficientes y de calidad.</p>
+                    <div class="personal-info">
+                        <div>
+                            <span>Nombre:</span>
+                            <p>Eric Sánchez Lahcini</p>
+                        </div>
+                        <div>
+                            <span>Email:</span>
+                            <p>slahcini.es@gmail.com</p>
+                        </div>
+                        <div>
+                            <span>Teléfono:</span>
+                            <p>+34 652 570 397</p>
+                        </div>
+                        <div>
+                            <span>Ubicación:</span>
+                            <p>Madrid, España</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-circle" data-percent="90">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h3>90<span>%</span></h3>
+                            </div>
+                        </div>
+                        <h4>JavaScript/TypeScript</h4>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-circle" data-percent="85">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h3>85<span>%</span></h3>
+                            </div>
+                        </div>
+                        <h4>Angular/Ionic</h4>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-circle" data-percent="80">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h3>80<span>%</span></h3>
+                            </div>
+                        </div>
+                        <h4>Java/Android</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Habilidades</span></h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <p>Angular</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Ionic</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>React</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>HTML/CSS</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>JavaScript/TypeScript</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <p>Java</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Spring Boot</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Node.js</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>PHP</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Mobile & Otros</h3>
+                    <div class="skill-item">
+                        <p>Android Studio</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Unity</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Git/GitHub</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>AWS/Azure</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Mi <span>Experiencia</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Programador Full-Stack</h3>
+                        <h4>Alten, Madrid</h4>
+                        <ul>
+                            <li>Refactorización de aplicación Angular 4 a Angular 11</li>
+                            <li>Desarrollo con JavaScript, TypeScript, Ionic y Java</li>
+                            <li>Actualización y renovación de landing page</li>
+                            <li>Gestión de control de versiones con Git</li>
+                            <li>Traducción del frontend de la aplicación</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+                        <h4>IES Leonardo da Vinci, Madrid</h4>
+                        <ul>
+                            <li>Programación en Java y acceso a datos (Hibernate, JDBC, XML)</li>
+                            <li>Fundamentos de cloud computing (AWS, Azure)</li>
+                            <li>Desarrollo multimedia y móvil (Unity, Android Studio)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Ingeniería de Computadores</h3>
+                        <h4>Universidad Politécnica de Madrid</h4>
+                        <ul>
+                            <li>Lógica y matemática discreta</li>
+                            <li>Fundamentos de programación y algoritmos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Proyectos</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Refactorización Angular">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Refactorización Angular 4 → 11</h3>
+                        <p>Migración completa de una aplicación empresarial desde Angular 4 a Angular 11, mejorando rendimiento y mantenibilidad.</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>TypeScript</span>
+                            <span>Ionic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Aplicación Android">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>Aplicación Android para gestión de tareas con sincronización en la nube y notificaciones.</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>Java</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Landing Page Moderna">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Landing Page Interactiva</h3>
+                        <p>Diseño y desarrollo de una landing page moderna con animaciones CSS y responsive design.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contáct<span>ame</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>Si estás interesado en trabajar conmigo o quieres más información, no dudes en contactarme.</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>slahcini.es@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+34 652 570 397</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Madrid, España</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Eric Sánchez Lahcini. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#about">Sobre mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#experience">Experiencia</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante para volver arriba -->
+    <a href="#" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
